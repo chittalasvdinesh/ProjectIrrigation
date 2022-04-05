@@ -1,0 +1,355 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: lato-regular;
+    src: url('./FontFamily/Lato-Regular.ttf');
+}
+@font-face {
+    font-family: lato-black;
+    src: url('./FontFamily/Lato-Black.ttf');
+}
+
+
+html{
+    font-size: 10px;
+}
+
+a{
+    font-family: lato-regular;
+    text-decoration: none;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
+.logo-title{
+    font-size: 1.5rem;
+    max-width: 219px;
+     /* height: 43px; */
+}
+
+nav{
+    max-width: 1100px;
+    
+}
+
+nav span{
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+}
+
+ul li{
+    font-size: 1.4rem;
+    font-family: lato-regular;
+   
+}
+
+.font-text p{
+    display: inline;
+}
+
+.small-a{
+    font-size: 1.1rem;
+}
+
+.large-a{
+    font-size: 1.9rem;
+}
+
+.banner-section{
+    background-image: url('./images/Agriculture-bg.png');
+    height: 519px;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+.banner-container{
+    /* margin-left: 117px; */
+    padding-top: 235px;
+} 
+
+.banner-title, .banner-text{
+    background-color: #1B7642;
+}
+.banner-title{
+    max-width: 183px;
+    padding: 0px 20px 2px 17px;
+    font-size: 5.7rem;
+    color: #ffffff;
+}
+
+.banner-text{
+    max-width: 520px;
+}
+
+.banner-head{
+    padding: 10px 20px 10px 20px;
+    font-size: 3.5rem;
+    color: #ffffff;
+    margin-bottom: 45px;
+    
+}
+
+.banner-container a{
+    color: black;
+    font-size: 2.2rem;
+    background: #ffffff;
+    padding: 10px 21px 10px 21px;
+}
+
+.banner-container a:hover{
+    background-color: red;
+    color: #ffffff;
+    transition: 0.4s ease-in;
+}
+.irrigation-section{
+    padding-top: 130px;
+}
+
+.irrigation-section h2{
+    font-size: 4.3rem;
+    font-family: lato-black;
+}
+
+.items-row{
+    margin-top: 119px;
+    margin-bottom: 121px;
+}
+
+.items-row h4{
+    max-width: 96px;
+    margin-top: 17px;
+
+}
+
+.VIDC-1{
+    background-image: url(./images/VID-1.png);
+}
+
+.VID-section{
+   height: 520px;
+}
+
+.background{
+    width: 100%;
+    position: relative;
+    height: 520px;
+}
+
+.white{
+    max-width: 30%;
+    height: 1020px;
+}
+
+.white-img{
+    height: 520px;
+}
+
+.brown{
+    background-color: #3F3531;
+    width: 70%;
+    height: 520px;
+    
+    
+}
+
+.content-container{
+    position: absolute;
+    top: 10%;
+    color: #ffffff;
+}
+.VIDC-content{
+    max-width: 100%;
+}
+
+.content-container h3{
+    font-size: 3.6rem;
+}
+
+.content-container p{
+    font-size: 1.6rem;
+    
+}
+
+.VIDC-2{
+    background-color: #3F3531;
+    color: #ffffff;
+    
+}
+
+.VIDC-2 h3{
+    font-size: 3.6rem;
+}
+
+.VIDC-2 p{
+    font-size: 1.6rem;
+    max-width: 393px;
+}
+
+.know-more-link, .VIDC-link{
+    padding: 10px 21px 10px 21px;
+
+}
+.know-more-link{
+    font-size: 2.2rem;
+}
+
+.VIDC-link{
+  
+    font-size: 1.5rem;
+    width: 117px;
+}
+
+.footer-section{
+    background-image: url('./images/Union\ 2.png');
+    max-width: 100%;
+    background-size: cover;
+    padding-top: 215px;
+    color: #ffffff;
+}
+
+footer label{
+    font-size: 2.2rem;
+}
+
+input[type="email"]{
+    border-radius: 80px;
+    max-width: 670px;
+    background-color: rgba(29, 29, 29, 0.10);
+    color: #ffffff;
+}
+
+.input-group button{
+    border-radius: 90px;
+    font-size: 1.6rem;
+}
+
+
+ul{
+    list-style-type: none;
+}
+footer h3{
+    font-size: 1.8rem;
+}
+
+footer li{
+    font-size: 1.4rem;
+    
+}
+
+.bottom-footer p{
+    font-size: 1.2rem;
+    /* max-width: 397px; */
+}
+
+
+
+.webwerks-para{
+    max-width: 97px;
+}
+.footer-1, address{
+    margin-bottom: 38px;
+
+}
+address{
+    background-color: rgba(29, 29, 29, 0.10);
+    color: #ffffff;
+}
+address a{
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+.address-map{
+    max-width: 283px;
+}
+
+address h2{
+    font-size: 1.8rem;
+}
+
+.icon{
+    font-size: 2.0rem;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .logo-title{
+        font-size: 1.0rem;
+        max-width: 190px;
+
+    }
+    .irrigation-section h2{
+        font-size: 1.7rem;
+    }
+
+    .content-container h3{
+        font-size: 2.4rem;
+    }
+    
+    .content-container p{
+        font-size: 1.4rem;
+    }
+    
+    .know-more-link, .VIDC-link{
+        padding: 5px 10px 5px 10px;
+        font-size: 1.2rem;
+    } 
+
+    footer label{
+        font-size: 1.5rem;
+    }
+    footer h3{
+        font-size: 1.3rem;
+    }
+    
+    footer li{
+        font-size: 1.0rem;
+        
+    }
+
+    .banner-title{
+        font-size: 4.0rem;
+    }
+
+    .banner-head{
+        font-size: 3.0rem;
+    }
+    
+    
+}
+
+@media screen and (max-width:576px){
+    .logo{
+        height: 20px;
+        width: 20px;
+    }
+    
+    .content-container h3{
+        font-size: 2.0rem;
+    }
+    .content-container p{
+        font-size: 0.9rem;
+        max-width: 300px;
+    }
+    .know-more-link, .VIDC-link{
+        padding: 5px 8px 5px 8px;
+        font-size: 1.0rem;
+    } 
+
+}
+
+@media screen  and (min-width: 993px) {
+    .content-container p{
+        max-width: 393px;
+    }
+    
+}
